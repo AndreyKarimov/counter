@@ -11,13 +11,16 @@ body {
     text-align: center;
 }
 
-.counter {}
+.counter {
+    text-align: center;
+}
 .counter__value {
     font-size: 32px;
 }
 .counter__plus, .counter__reset {
+    display: block;
     width: 500px;
-    margin-top: 36px;
+    margin: 36px auto 0;
     padding: 0 164px;
     text-decoration: none;
     outline: none;

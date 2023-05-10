@@ -1,0 +1,34 @@
+@import url(/styles/reset.css);
+body {
+    font-family: Manrope;
+}
+
+.container {
+    padding-top: 126px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.counter {}
+.counter__value {
+    font-size: 32px;
+}
+.counter__plus, .counter__reset {
+    width: 500px;
+    margin-top: 36px;
+    padding: 0 164px;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    background: #4191FF;
+    border-radius: 20px;
+    font-size: 32px;
+    line-height: 100px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.counter__reset {
+    background: #D45366;
+}
